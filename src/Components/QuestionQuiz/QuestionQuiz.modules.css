@@ -1,0 +1,60 @@
+.question_quiz {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    font-size: 17px;
+    margin-top: 1rem;
+}
+
+.statement {
+    margin: 1rem;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.text_answer{
+    margin-left: 0.5rem;
+}
+
+.answers_section {
+    font-size: 15px;
+    margin-inline: 1rem;
+}
+
+.answer_box {
+    margin-top: 0.5rem;
+}
+
+.divider {
+    width: 100%;
+    margin-top: 2.5rem;
+    color: #E5E7EB;
+}
+
+.quizSection_bottomBar {
+    padding-inline: 0.8rem;
+    padding-block: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.likes_section {
+    display: flex;
+    gap: 0.5rem
+}
+
+.like_button:hover,
+.dislike_button:hover,
+.edit_button:hover,
+.delete_button:hover {
+  cursor: pointer;
+}
+
+
+.modify_question_section {
+    display: flex;
+    gap: 0.7rem
+}

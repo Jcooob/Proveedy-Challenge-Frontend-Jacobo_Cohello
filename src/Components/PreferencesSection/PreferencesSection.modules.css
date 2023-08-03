@@ -1,0 +1,40 @@
+.preferencesSection {
+    margin-top: 6rem;
+    margin-left: 2rem;
+    width: 15rem;
+}
+
+.title {
+    display: flex;
+    font-size: 11px;
+    color: #9CA3AF;
+    padding-left: 1rem;
+}
+
+.divider_preferences {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.icon_preferences {
+    margin-left: 0.5rem;
+}
+
+.icon_preferences:hover {
+    cursor: pointer;
+}
+
+.icon_option_preferences {
+    margin-left: 1.5rem;
+}
+
+.option_preferences {
+    margin-block: 1rem;
+    display: flex;
+    gap: 0.8rem;
+    max-width: fit-content;
+}
+
+.option_preferences:hover {
+    cursor: pointer;
+}

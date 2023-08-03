@@ -1,0 +1,122 @@
+.inputSection {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    width: 35rem;
+    font-weight: 400;
+}
+
+.create_new_quiz {
+    color:#374151;
+}
+
+.create_new_quiz:hover {
+    cursor: pointer;
+    color: #6366F1;
+}
+
+.try_example {
+    margin-top: 2rem;
+}
+
+.option_example {
+    color: #6366F1;
+    white-space: pre-wrap;
+}
+
+.option_example:hover {
+    cursor: pointer;
+    color: #0f0d81
+}
+
+.options_menu {
+    margin-top: 1.5rem;
+    display: flex;
+    width: 35rem;
+    border-bottom: 1px solid #D1D5DB;
+    height: 3rem;
+}
+
+.option_selected {
+    padding: 1rem;
+    display: flex;
+    color: #6366F1;
+    border-bottom: 2px solid #6366F1;
+}
+
+.icon_option {
+    margin-left: 0.5rem;
+}
+
+.option {
+    padding: 1rem;
+    display: flex;
+}
+
+.option:hover {
+    cursor: pointer;
+    color: #6366F1;
+    border-bottom: 2px solid #6366F1;
+}
+
+.text_area {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.selector_area {
+    margin-top: 1.5rem;
+    column-gap: 2rem;
+    
+}
+
+.selector_column {
+    display: flex;
+    gap: 7rem;
+    margin-left: 0.7rem;
+    margin-bottom: 4rem;
+}
+
+.selector {
+    display: flex;
+    border: 2px solid #E5E7EB;
+    max-width: 8rem;
+    min-width: 7rem;
+    border-radius: 8px;
+    padding-inline: 1.5rem;
+    padding-block: 0.6rem;
+    justify-content: space-between; 
+}
+
+.selector:hover {
+    cursor: pointer;
+}
+
+.icon_selector {
+    margin-left: 1.5rem;
+}
+
+.text_box {
+    margin-top: 1rem;
+    border-color: #D1D5DB;
+    border-radius: 6px;
+    height: 10rem;
+
+}
+
+.generate_button {
+    margin-top: 3rem;
+    background-color: #6366F1;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 0.6rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.generate_button:hover {
+    cursor: pointer;
+    background-color: #0f0d81;
+}

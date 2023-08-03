@@ -1,0 +1,103 @@
+.navBar {
+    background-color: #020113;
+    height: 4rem;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: flex;
+	align-items: center;
+    justify-content: space-between; 
+}
+
+.start_navBar {
+    display: flex;
+    margin-left: 10rem;
+}
+
+.end_navBar {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.navBar_option {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 30px;
+    transition: all 0.1s ease-in-out;
+}
+
+.navBar_option:hover {
+    color:#818CF8;
+    cursor: pointer;
+}
+
+.icon_upgrade {
+    margin-right: 9px;
+}
+
+.icon_create_quiz {
+    margin-right: 9px;
+}
+
+.navBar_button_upgrade {
+    font-size: 12px;
+    background-color: #FACC15;
+    padding: 0.7rem;
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    display: flex;
+    height: 1rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.navBar_button_upgrade:hover {
+    background-color: #bd9204;
+    cursor: pointer;
+}
+
+.navBar_button_create_quiz {
+    font-size: 12px;
+    background-color: #818CF8;
+    padding: 0.7rem;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    display: flex;
+    height: 1rem;
+    margin-left: 1.7rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.navBar_button_create_quiz:hover {
+    background-color: #5160eb;
+    cursor: pointer;
+}
+
+.navBar_option_my_library {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 1rem;
+    margin-left: 2rem;
+    margin-right: 1.7rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.navBar_option_my_library:hover {
+    color:#818CF8;
+    cursor: pointer;
+}
+
+.navBar_button_user {
+    background-color: #818CF8;
+    color: black;
+    border-radius: 99999px;
+    padding-block: 10px;
+    padding-inline: 15px;
+    transition: all 0.1s ease-in-out;
+}
+
+.navBar_button_user:hover {
+    background-color: #5160eb;
+    cursor: pointer;
+}
